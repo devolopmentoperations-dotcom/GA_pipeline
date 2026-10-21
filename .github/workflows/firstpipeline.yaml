@@ -6,4 +6,9 @@ jobs:
         steps:
             - name: echo hello
               run: echo "hello, world!!!"
+    echo-goodbye: 
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo hello
+              run: echo "goodbye, world!!!"          
               
